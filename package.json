@@ -1,6 +1,6 @@
 {
   "name": "book-length",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Returns the number of pages on your manuscript, i.e. book length",
   "main": "length.js",
   "scripts": {
