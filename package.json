@@ -1,6 +1,6 @@
 {
   "name": "book-length",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns the number of pages on your manuscript, i.e. book length",
   "main": "length.js",
   "scripts": {
@@ -9,8 +9,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://gitlab.com/marvindanig/book-length.git"
-  },  
-  "keywords": [ "book", "length", "manuscript", "bookiza"],
+  },
+  "keywords": [
+    "book",
+    "length",
+    "manuscript",
+    "bookiza"
+  ],
   "author": "Marvin Danig <marvin@bubbl.in> (https://bubbl.in/marvin)",
   "license": "MIT",
   "dependencies": {
