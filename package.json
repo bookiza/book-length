@@ -1,6 +1,6 @@
 {
   "name": "book-length",
-  "version": "1.1.9",
+  "version": "1.2.0",
   "description": "Return book length. ✰",
   "main": "length.js",
   "scripts": {
@@ -18,5 +18,7 @@
   ],
   "author": "Marvin Danig <marvin@bubbl.in> (https://bubbl.in/marvin)",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "shelljs": "0.8.3"
+  }
 }

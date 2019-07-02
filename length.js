@@ -1,13 +1,9 @@
-module.exports.length = (manuscriptPath) => {
+module.exports.length = () => {
+    require('shelljs/global')
     
-	const fs = require('fs')
-	const path = require('path')
+    const path = require('path')
 
-	if (manuscriptPath === undefined) { manuscriptPath = path.join('.', 'manuscript') }
-	
-	let bookLength = 0 
-	
-	fs.readdir(manuscriptPath, (err, files) => { bookLength = files.length })
-
-	return bookLength
+    return ls('-d', path.join('manuscript','page-*')).length
 }
+
+
