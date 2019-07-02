@@ -3,7 +3,7 @@ module.exports.length = (manuscriptPath) => {
 	const fs = require('fs')
 	const path = require('path')
 
-	if (manuscriptPath === undefined) { manuscriptPath = path.join('.', 'manuscript','page-*') }
+	if (manuscriptPath === undefined) { manuscriptPath = path.join('.', 'manuscript') }
 	
 	let bookLength = 0 
 	
@@ -11,9 +11,3 @@ module.exports.length = (manuscriptPath) => {
 
 	return bookLength
 }
-
-
-
-
-
-
