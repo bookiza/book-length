@@ -1,9 +1,16 @@
-function length() {
-    require('shelljs/global');
+module.exports.length = (manuscriptPath) => {
     
-    const path = require('path');
+	const fs = require('fs')
+	const path = require('path')
 
-    return ls('-d', path.join('manuscript','page-*')).length;
+	if (manuscriptPath === undefined) { manuscriptPath = path.join('.', 'manuscript','page-*') }
+	
+	return fs.readdir(manuscriptPath, (err, pages) => pages.length
+
 }
 
-module.exports.length = length;
+
+
+
+
+
