@@ -5,7 +5,7 @@ module.exports.length = (manuscriptPath) => {
 
 	if (manuscriptPath === undefined) { manuscriptPath = path.join('.', 'manuscript','page-*') }
 	
-	return fs.readdir(manuscriptPath, (err, pages) => pages.length
+	return fs.readdir(manuscriptPath, (err, pages) => pages.length)
 
 }
 
