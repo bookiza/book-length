@@ -19,6 +19,6 @@
   "author": "Marvin Danig <marvin@bubbl.in> (https://bubbl.in/marvin)",
   "license": "MIT",
   "dependencies": {
-    "shelljs": "0.8.4"
+    "shelljs": "0.8.5"
   }
 }
