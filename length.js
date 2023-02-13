@@ -1,8 +1,8 @@
-module.exports.length = () => {
+import path from 'path'
+
+export default function bookLength() {
     require('shelljs/global')
     
-    const path = require('path')
-
     return ls('-d', path.join('manuscript','page-*')).length
 }
 

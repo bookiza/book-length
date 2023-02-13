@@ -1,10 +1,10 @@
 {
   "name": "book-length",
-  "version": "1.2.1",
-  "description": "Return book length. ✰",
+  "version": "2.0.0",
+  "description": "✰ Returns the book length of your project. ✰",
   "main": "length.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,6 @@
   "author": "Marvin Danig <marvin@bubbl.in> (https://bubbl.in/marvin)",
   "license": "MIT",
   "dependencies": {
-    "shelljs": "0.8.4"
+    "shelljs": "0.8.5"
   }
 }
