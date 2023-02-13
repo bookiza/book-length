@@ -1,8 +1,9 @@
 {
   "name": "book-length",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "✰ Returns the book length of your project. ✰",
   "main": "length.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
@@ -14,7 +15,8 @@
     "book",
     "length",
     "manuscript",
-    "bookiza"
+    "bookiza",
+    "bubblin"
   ],
   "author": "Marvin Danig <marvin@bubbl.in> (https://bubbl.in/marvin)",
   "license": "MIT",
