@@ -5,5 +5,3 @@ export default function bookLength() {
     
     return ls('-d', path.join('manuscript','page-*')).length
 }
-
-
