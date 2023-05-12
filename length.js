@@ -1,7 +1,12 @@
-import path from 'path'
+import { readdirSync } from 'fs';
 
 export default function bookLength() {
-    require('shelljs/global')
-    
-    return ls('-d', path.join('manuscript','page-*')).length
+    const pages = (source) => readdirSync(source, {
+        withFileTypes: true,
+    }).reduce((a, c) => {
+        c.isDirectory() && a.push(c.name);
+        return a;
+    }, []);
+
+    return pages('./manuscript').length;
 }

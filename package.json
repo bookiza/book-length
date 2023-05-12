@@ -1,7 +1,7 @@
 {
   "name": "book-length",
-  "version": "2.0.1",
-  "description": "✰ Returns the book length of your project. ✰",
+  "version": "2.1.1",
+  "description": "✰ Returns the number of pages on your book (Bookiza Project). ✰",
   "main": "length.js",
   "type": "module",
   "scripts": {
@@ -21,6 +21,5 @@
   "author": "Marvin Danig <marvin@bubbl.in> (https://bubbl.in/marvin)",
   "license": "MIT",
   "dependencies": {
-    "shelljs": "0.8.5"
   }
 }
